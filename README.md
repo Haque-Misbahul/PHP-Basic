@@ -9,7 +9,9 @@ This course covers Laravel 10 fundamentals and gradually progresses into more ad
 ## 🎯 What I’m Learning
 
 - Laravel setup and environment
+- Docker
 - MVC (Model-View-Controller) architecture
+- Five different project
 - Routing, controllers, and views
 - Blade templating engine
 - Database migrations and seeders
