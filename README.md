@@ -21,5 +21,4 @@ This course covers Laravel 10 fundamentals and gradually progresses into more ad
 - Laravel Livewire (if covered)
 - Deployment and production tips
 
-## 📁 Repository Structure
 
