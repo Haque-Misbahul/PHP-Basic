@@ -1,6 +1,6 @@
 <?php
 
-$x = 10;
+$x = 85;
 
 if ($x > 5) {
 
@@ -10,13 +10,36 @@ if ($x > 5) {
 $score = 85;
 
 if ($score >= 90) {
-   echo "A";  
+   echo "A\n";  
 } elseif ($score >= 80) {
-   echo "B";
+   echo "B\n";
 }elseif ($score >= 70) {
-   echo "C";
+   echo "C\n";
 }elseif ($score >= 60) {
-   echo "D";
+   echo "D\n";
 }else {
-   echo "F";
+   echo "F\n";
+}
+
+$num = 16;
+
+if ($num > 0) {
+   if ($num == 0){
+      echo "Positive even Number\n";
+   }else
+      echo "positive odd number\n"; 
+
+} else{
+      echo "Non positive number\n";
+   }
+
+
+$username = "admin";
+$password = "password123";
+
+
+if ($username == "admin" && $password == "password123") {
+   echo "success";
+} else {
+   echo "failure";
 }
