@@ -18,3 +18,14 @@ switch ($size) {
    echo "unknown size\n";
 }
 
+// Displayed the need of using break
+$badAttemps = 3;
+
+switch ($badAttemps) {
+
+   case 3:
+      echo "you are blocked \n";
+
+      default:
+         echo "bad attempt detected\n";
+}
